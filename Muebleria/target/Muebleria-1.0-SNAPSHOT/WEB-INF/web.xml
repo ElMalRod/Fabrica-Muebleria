@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ComprobarDatos</servlet-name>
+        <servlet-class>InicioJava.ComprobarDatos</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControlLogOut</servlet-name>
+        <servlet-class>InicioJava.ControlLogOut</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>InicioJava.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargaArchivo</servlet-name>
+        <servlet-class>InicioJava.CargaArchivo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ComprobarDatos</servlet-name>
+        <url-pattern>/ComprobarDatos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControlLogOut</servlet-name>
+        <url-pattern>/ControlLogOut</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaArchivo</servlet-name>
+        <url-pattern>/CargaArchivo</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>
+           index.jsp
+        </welcome-file>
+    </welcome-file-list>
+    <context-param>
+        <param-name> jdbcURL</param-name>
+        <param-value> jdbc:mysql://localhost:3306/fabricamuebles</param-value>
+    </context-param>
+    <context-param>
+        <param-name> jdbcUserName</param-name>
+        <param-value> root</param-value>
+    </context-param>
+    <context-param>
+        <param-name> jdbcPassword</param-name>
+        <param-value> root</param-value>
+    </context-param>
+</web-app>
