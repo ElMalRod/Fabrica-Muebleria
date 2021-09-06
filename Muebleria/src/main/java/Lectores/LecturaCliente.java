@@ -5,7 +5,7 @@
  */
 package Lectores;
 import Lectores.DatosLinea;
-import Clientes.Cliente;
+import Personas.Cliente;
 import Utils.ConexionDB;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

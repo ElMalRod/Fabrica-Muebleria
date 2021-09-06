@@ -42,17 +42,17 @@ public class Login extends HttpServlet {
             case 1:
                 //FABRICANTE
                 request.getSession().setAttribute("nombre", nombre);
-                request.getRequestDispatcher("InicioFabrica.jsp").forward(request, response);
+                request.getRequestDispatcher(".jsp").forward(request, response);
                 break;
             case 2:
                 //fiNANCIERA
                 request.getSession().setAttribute("nombre", nombre);
-                request.getRequestDispatcher("/AreaFinanciera/InicioFinanciera.jsp").forward(request, response);
+                request.getRequestDispatcher(".jsp").forward(request, response);
                 break;
             case 3:
                 //VENTAS
                 request.getSession().setAttribute("nombre", nombre);
-                request.getRequestDispatcher("/AreaVenta/InicioVenta.jsp").forward(request, response);
+                request.getRequestDispatcher(".jsp").forward(request, response);
                 break;
             case 0:
                 request.setAttribute("fail", true);

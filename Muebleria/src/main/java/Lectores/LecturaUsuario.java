@@ -6,7 +6,7 @@
 package Lectores;
 
 import Lectores.DatosLinea;
-import Clientes.Usuario;
+import Personas.Usuario;
 import Utils.ConexionDB;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -35,7 +35,7 @@ public class LecturaUsuario {
                 String password = datosUser.getDatos()[1];
                 int tipoUsuario = 0;
                 if (password.length() < 6) {
-                    listaErrores.add(new Error(datosUser.getNumLinea(), "Formato", "La contraseña no tiene 6 caracteres como minimo"));
+                    listaErrores.add(new Error(datosUser.getNumLinea(), "Formato", "La contraseña es invalida"));
                 } else {
                     try {
                         tipoUsuario = Integer.valueOf(datosUser.getDatos()[2]);
