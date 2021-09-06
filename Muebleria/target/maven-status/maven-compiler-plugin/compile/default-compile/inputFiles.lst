@@ -3,14 +3,14 @@ C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebler
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\InicioJava\LoginModel.java
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Lectores\LecturaCliente.java
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Lectores\Lector.java
+C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Personas\Usuario.java
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Lectores\LecturaPieza.java
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\InicioJava\VerificarDatos.java
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Muebleria\EnsambleMueble.java
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\InicioJava\CargaArchivo.java
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Muebleria\Mueble.java
-C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Clientes\Cliente.java
+C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Personas\Cliente.java
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Lectores\Error.java
-C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Clientes\Usuario.java
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Lectores\LecturaMueble.java
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Muebleria\Pieza.java
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Utils\ConexionDB.java
@@ -20,4 +20,3 @@ C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebler
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Lectores\LecturaEnsamblePieza.java
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Lectores\LecturaUsuario.java
 C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\Muebleria\EnsamblePieza.java
-C:\Users\emili\OneDrive\Escritorio\ProjectosJava\Proyec 1 Muebleria IPC2\Muebleria\src\main\java\InicioJava\ComprobarDatos.java
