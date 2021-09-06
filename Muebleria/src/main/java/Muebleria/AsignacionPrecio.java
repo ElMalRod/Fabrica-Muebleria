@@ -10,7 +10,8 @@ package Muebleria;
  * @author emili
  */
 public class AsignacionPrecio {
-  private int id;
+
+    private int id;
     private Double precio;
     private boolean utilizada;
     private String tipoPieza;
@@ -28,8 +29,6 @@ public class AsignacionPrecio {
         this.tipoPieza = tipoPieza;
     }
 
-    
-    
     public int getId() {
         return id;
     }
@@ -61,9 +60,5 @@ public class AsignacionPrecio {
     public void setUtilizada(boolean utilizada) {
         this.utilizada = utilizada;
     }
-    
-    
-    
-    
-}
 
+}

@@ -10,7 +10,8 @@ package Muebleria;
  * @author emili
  */
 public class Mueble {
-        private String nombre;
+
+    private String nombre;
     private Double precio;
 
     public Mueble(String nombre, Double precio) {
@@ -33,8 +34,5 @@ public class Mueble {
     public void setPrecio(Double precio) {
         this.precio = precio;
     }
- 
-    
+
 }
-
-

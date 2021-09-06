@@ -17,7 +17,7 @@ import java.util.ArrayList;
  * @author emili
  */
 public class LecturaCliente {
-  private Connection conexion = ConexionDB.getConexionDB();
+    private Connection conexion = ConexionDB.getConexionDB();
     private ArrayList<DatosLinea> datosClientes;
     private ArrayList<Error> listaErrores;
 
